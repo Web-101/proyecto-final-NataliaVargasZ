@@ -1,0 +1,88 @@
+body{
+    background-color: #929090;
+    font-family: sans-serif;
+}
+
+.btn-atras {
+    display: flex;
+    align-items: center;
+    text-decoration: none;
+}
+
+.btn-atras img {
+    width: 20px;
+    height: 20px;
+    object-fit: contain;
+}
+
+.pelicula-info-bloque {
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+}
+
+.poster-detalle-img {
+    margin: 0 auto;
+    width: 270px;            
+    height: auto;           
+    max-height: 400px;      
+    object-fit: contain;    
+    box-shadow: 0 4px 10px rgba(0,0,0,0.5);
+    background-color: #1a1a1a; 
+}
+
+.pelicula-info-bloque h2 {
+    font-size: 26px;
+    font-weight: bold;
+    margin: 0;
+}
+
+.meta-info {
+    font-size: 13px;
+    color: #FFCC00;
+    margin: 0;
+    font-weight: bold;
+}
+
+.sinopsis-txt {
+    font-size: 14px;
+    color: #dddddd;
+    line-height: 1.5;
+    margin: 0;
+}
+
+.horarios-seccion {
+    padding: 10px 16px 30px 16px;
+}
+
+.horarios-seccion h3 {
+    font-size: 18px;
+    margin: 0 0 15px 0;
+    color: #ffffff;
+}
+
+.horarios-grid {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 12px;
+}
+
+.btn-horario {
+    background-color: #1a1a1a;
+    color: #FFCC00;
+    border: 1px solid #FFCC00;
+    font-weight: bold;
+    padding: 12px 20px;
+    border-radius: 8px;
+    font-size: 14px;
+    cursor: pointer;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    transition: background-color 0.2s;
+}
+
+.btn-horario:hover {
+    background-color: #FFCC00;
+    color: #121212;
+}

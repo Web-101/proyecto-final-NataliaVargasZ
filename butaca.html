@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Selección de Asientos</title>
+    <link rel="stylesheet" href="css/butaca.css">   
+</head>
+<body>
+
+    <header class="app-header">
+        <div class="cabecera-butaca">
+            <button id="btn-volver" class="btn-atras">
+                <img src="img/icon-volver.png" alt="volver a detalle de pelicula">
+            </button>
+            <h1 id="titulo-funcion">Selección de Asientos</h1>
+        </div>
+    </header>
+
+    <main>
+        <div class="sala-cine-contenedor">
+            <div class="pantalla-visual">PANTALLA</div>
+            
+            <div id="mapa-sala" class="sala-grid"></div>
+        </div>
+
+        <div class="estado-asientos">
+            <div class="estados"><span class="cuadro disponible"></span> Disponible</div>
+            <div class="estados"><span class="cuadro ocupado"></span> Ocupado</div>
+            <div class="estados"><span class="cuadro seleccionado"></span> Seleccionado</div>
+        </div>
+
+        <section class="resumen-asientos-seccion">
+            <div class="info-resumen">
+                <p>Asientos: <span id="txt-asientos-seleccionados">-</span></p>
+                <p>Total a Pagar: <span id="txt-total-pagar">$0.00</span></p>
+            </div>
+            <button id="btn-continuar-compra" class="btn-amarillo-accion" disabled>Continuar</button>
+        </section>
+    </main>
+
+    <script src="js/butaca.js"></script>
+</body>
+</html>

@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Finalizar Compra</title>
+    <link rel="stylesheet" href="css/compra.css">
+</head>
+<body>
+
+    <main>
+        <div id="seccion-formulario">
+            <section class="tarjeta-resumen-pedido">
+                <h3 id="resumen-pelicula-titulo">Película</h3>
+                <p>Horario: <span id="resumen-hora">-</span></p>
+                <p>Asientos: <span id="resumen-asientos">-</span></p>
+                <h4>Total: <span id="resumen-total">$0.00</span></h4>
+            </section>
+
+            <section class="formulario-seccion">
+                <form id="form-registro-compra">
+                    <div class="campo-grupo">
+                        <label for="input-nombre">Nombre Completo *</label>
+                        <input type="text" id="input-nombre" required >
+                    </div>
+                    <div class="campo-grupo">
+                        <label for="input-correo">Correo Electrónico *</label>
+                        <input type="email" id="input-correo" required>
+                    </div>
+                    <div class="campo-grupo">
+                        <label for="input-telefono">Teléfono (Opcional)</label>
+                        <input type="tel" id="input-telefono">
+                    </div>
+                    <button type="submit" class="btn-amarillo-accion">Finalizar Compra</button>
+                </form>
+            </section>
+        </div>
+
+        <div id="seccion-ticket-confirmacion" hidden>
+            <div class="ticket-virtual">
+                <h2 id="mensaje-agradecimiento">¡Gracias por tu compra!</h2>
+                <div class="ticket-detalles-bloque">
+                    <p><strong>Película:</strong> <span id="ticket-pelicula">-</span></p>
+                    <p><strong>Función:</strong> <span id="ticket-funcion">-</span></p>
+                    <p><strong>Asientos:</strong> <span id="ticket-asientos">-</span></p>
+                    <p><strong>Monto total:</strong> <span id="ticket-total">-</span></p>
+                </div>
+                <button onclick="window.location.href='index.html'" class="btn-amarillo-accion">Volver al Inicio</button>
+            </div>
+        </div>
+    </main>
+
+    <script src="js/compra.js"></script>
+</body>
+</html>

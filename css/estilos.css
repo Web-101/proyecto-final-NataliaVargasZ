@@ -1,0 +1,94 @@
+body {
+    margin: 0;
+    font-family: sans-serif;
+    background-color: #121212;
+    color: #ffffff;
+}
+
+.app-header {
+    background-color: #1a1a1a;
+    padding: 15px 20px;
+    border-bottom: 1px solid #2a2a2a;
+}
+
+.logo-contenedor {
+    display: flex;
+    align-items: center;
+    gap: 8px;
+}
+
+.logo-contenedor img{
+    width: 20px;
+    height: 20px;
+}
+
+.app-header h1 {
+    font-size: 22px;
+    font-weight: bold;
+    margin: 0;
+    color: #FFCC00; 
+}
+
+main {
+    margin: 0 auto;
+    width: 375px;
+}
+
+.cartelera-seccion {
+    padding: 20px 16px;
+}
+
+.cartelera-seccion h2 {
+    font-size: 24px;
+    font-weight: bold;
+    margin: 0 0 20px 0;
+    color: #ffffff;
+}
+
+.peliculas-grid {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 15px;
+}
+
+.tarjeta-pelicula {
+    text-decoration: none;
+    color: #ffffff;
+    width: 163px; 
+    display: flex;
+    flex-direction: column;
+    gap: 8px;
+}
+
+.poster-contenedor {
+    width: 100%;
+}
+
+.poster-img {
+    width: 100%;
+    height: 240px;
+    object-fit: cover;
+    border: 1px solid #2d2d2d;
+}
+
+.tarjeta-detalles h3 {
+    font-size: 14px;
+    font-weight: bold;
+    margin: 0;
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+}
+
+.tarjeta-detalles p {
+    font-size: 12px;
+    color: #aaaaaa;
+    margin: 4px 0 0 0;
+}
+
+.error-txt {
+    color: #ff4444;
+    font-size: 14px;
+    text-align: center;
+    width: 100%;
+}

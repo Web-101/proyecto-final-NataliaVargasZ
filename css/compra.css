@@ -1,0 +1,141 @@
+body{
+    background-color: #929090;
+    font-family: sans-serif;
+}
+.tarjeta-resumen-pedido {
+    background-color: #1a1a1a;
+    margin: 20px 16px;
+    padding: 18px;
+    border-radius: 10px;
+    border: 1px solid #2d2d2d;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+.tarjeta-resumen-pedido h3 {
+    margin: 0;
+    font-size: 18px;
+    color: #ffffff;
+}
+
+.tarjeta-resumen-pedido p {
+    margin: 0;
+    font-size: 14px;
+    color: #aaaaaa;
+}
+
+.tarjeta-resumen-pedido span {
+    color: #ffffff;
+    font-weight: bold;
+}
+
+.tarjeta-resumen-pedido h4 {
+    margin: 5px 0 0 0;
+    font-size: 16px;
+    color: #aaaaaa;
+}
+
+.tarjeta-resumen-pedido h4 span {
+    color: #FFCC00;
+    font-size: 20px;
+}
+
+/* Sección Formulario de Datos */
+.formulario-seccion {
+    padding: 0 16px 40px 16px;
+}
+
+#form-registro-compra {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+
+.campo-grupo {
+    display: flex;
+    flex-direction: column;
+    gap: 8px;
+}
+
+.campo-grupo label {
+    font-size: 14px;
+    color: #cccccc;
+}
+
+.campo-grupo input {
+    background-color: #1a1a1a;
+    border: 1px solid #333333;
+    color: #ffffff;
+    padding: 12px 15px;
+    border-radius: 8px;
+    font-size: 15px;
+    outline: none;
+    box-sizing: border-box;
+    width: 100%;
+}
+
+.campo-grupo input:focus {
+    border-color: #FFCC00;
+}
+
+/* Vista del Ticket Virtual de Confirmación */
+#seccion-ticket-confirmacion {
+    padding: 30px 16px;
+}
+
+.ticket-virtual {
+    background-color: #1a1a1a;
+    border: 2px #FFCC00; /* Look de boleto perforado */
+    border-radius: 12px;
+    padding: 24px;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    align-items: center;
+}
+
+#mensaje-agradecimiento {
+    font-size: 20px;
+    color: #FFCC00;
+    text-align: center;
+    margin: 0;
+}
+
+.ticket-detalles-bloque {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    border-top: 1px solid #333333;
+    border-bottom: 1px solid #333333;
+    padding: 15px 0;
+}
+
+.ticket-detalles-bloque p {
+    margin: 0;
+    font-size: 14px;
+    color: #aaaaaa;
+    display: flex;
+    justify-content: space-between;
+}
+
+.ticket-detalles-bloque span {
+    color: #ffffff;
+    font-weight: bold;
+}
+
+.btn-amarillo-accion{
+    width: 100%;
+    background-color: #FFCC00;
+    color: #121212;
+    font-weight: bold;
+    padding: 14px 0;
+    border-radius: 8px;
+    border: none;
+    font-size: 16px;
+    cursor: pointer;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}

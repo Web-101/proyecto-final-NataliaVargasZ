@@ -1,0 +1,147 @@
+[
+  {
+    "id": "sombras-del-destino",
+    "titulo": "Sombras del Destino",
+    "genero": "Drama",
+    "clasificacion": "12+",
+    "poster": "img/peli1.png",
+    "sinopsis": "Un misterioso detective privado se adentra en los rincones más oscuros de la ciudad para resolver una desaparición que alterará su propio destino.",
+    "funciones": [
+      {
+        "hora": "15:30 hs",
+        "sala": "Sala 1",
+        "asientosOcupados": ["A3", "A4", "B5", "F8", "F9"]
+      },
+      {
+        "hora": "18:00 hs",
+        "sala": "Sala 1",
+        "asientosOcupados": ["C1", "C2", "D4"]
+      },
+      {
+        "hora": "20:30 hs",
+        "sala": "Sala 1",
+        "asientosOcupados": ["H1", "H2", "H3", "H4"]
+      }
+    ]
+  },
+  {
+    "id": "bosque-magico-2",
+    "titulo": "Bosque Mágico 2",
+    "genero": "Animación",
+    "clasificacion": "Todos",
+    "poster": "img/peli2.png",
+    "sinopsis": "Acompaña a nuestros pequeños guardianes en una nueva y colorida aventura para restaurar el equilibrio del gran árbol ancestral y salvar su hogar.",
+    "funciones": [
+      {
+        "hora": "14:00 hs",
+        "sala": "Sala Kids",
+        "asientosOcupados": ["A1", "A2", "B1", "B2", "C3"]
+      },
+      {
+        "hora": "16:30 hs",
+        "sala": "Sala Kids",
+        "asientosOcupados": []
+      }
+    ]
+  },
+  {
+    "id": "velocidad-terminal",
+    "titulo": "Velocidad Terminal",
+    "genero": "Acción",
+    "clasificacion": "15+",
+    "poster": "img/peli3.png",
+    "sinopsis": "En una carrera de alto riesgo contra el tiempo, un piloto de élite deberá usar sus mejores habilidades para frustrar un asalto tecnológico global.",
+    "funciones": [
+      {
+        "hora": "19:00 hs",
+        "sala": "Sala 3",
+        "asientosOcupados": ["D7", "D8", "E7", "E8"]
+      },
+      {
+        "hora": "22:15 hs",
+        "sala": "Sala 3",
+        "asientosOcupados": ["F1", "G1", "H1"]
+      }
+    ]
+  },
+  {
+    "id": "ecos-del-silencio",
+    "titulo": "Ecos del Silencio",
+    "genero": "Suspense",
+    "clasificacion": "18+",
+    "poster": "img/peli4.png",
+    "sinopsis": "Un thriller psicológico tenso donde los secretos ocultos de una pequeña comunidad comienzan a manifestarse a través de inquietantes transmisiones sonoras.",
+    "funciones": [
+      {
+        "hora": "21:00 hs",
+        "sala": "Sala 4",
+        "asientosOcupados": ["A1", "B2", "C3", "D4", "E5"]
+      }
+    ]
+  },
+  {
+    "id": "el-despertar",
+    "titulo": "El Despertar del Titán",
+    "genero": "Acción",
+    "clasificacion": "13+",
+    "poster": "img/peli5.png",
+    "sinopsis": "Fuerzas colosales ocultas bajo la corteza terrestre despiertan, obligando a la humanidad a unificar sus defensas en una batalla sin precedentes.",
+    "funciones": [
+      {
+        "hora": "15:00 hs",
+        "sala": "Sala IMAX",
+        "asientosOcupados": ["C4", "C5"]
+      },
+      {
+        "hora": "18:30 hs",
+        "sala": "Sala IMAX",
+        "asientosOcupados": ["F8", "F9"]
+      }
+    ]
+  },
+  {
+    "id": "codigo-origen",
+    "titulo": "Código Origen",
+    "genero": "Ciencia Ficción",
+    "clasificacion": "12+",
+    "poster": "img/peli6.png",
+    "sinopsis": "Un brillante programador descubre una anomalía en un entorno de realidad virtual que podría alterar la percepción del espacio-tiempo del mundo real.",
+    "funciones": [
+      {
+        "hora": "17:00 hs",
+        "sala": "Sala 2",
+        "asientosOcupados": ["A5", "A6"]
+      }
+    ]
+  },
+  {
+    "id": "imperio-arena",
+    "titulo": "Imperio de Arena",
+    "genero": "Aventura",
+    "clasificacion": "Todos",
+    "poster": "img/peli7.png",
+    "sinopsis": "Exploradores intrépidos se adentran en un desierto implacable para desenterrar los tesoros de una dinastía perdida hace miles de años.",
+    "funciones": [
+      {
+        "hora": "16:00 hs",
+        "sala": "Sala 5",
+        "asientosOcupados": []
+      }
+    ]
+  },
+  {
+    "id": "noche-eterna",
+    "titulo": "Noche Eterna",
+    "genero": "Terror",
+    "clasificacion": "18+",
+    "poster": "img/peli8.png",
+    "sinopsis": "Un grupo de jóvenes queda atrapado en un antiguo refugio durante un eclipse prolongado, convirtiéndose en el blanco de entidades ancestrales.",
+    "funciones": [
+      {
+        "hora": "23:00 hs",
+        "sala": "Sala 6",
+        "asientosOcupados": ["A1", "A8", "H1", "H8"]
+      }
+    ]
+  }
+]
